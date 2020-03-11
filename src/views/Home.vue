@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>Huawei Phones</h1>
-    <input type="text" v-model="searchQuery">
+    <input type="text" v-model="searchQuery" placeholder="Search">
     <div class="container mx-auto">
       <ul class="phone-lists" v-if="phones">
         <li
